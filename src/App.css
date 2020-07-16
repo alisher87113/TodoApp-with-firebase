@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navUl {
+  display: flex;
+  list-style: none;
+}
+
+/* styling each navigation item */
+.navUl > li {
+  margin: 10px 5px 0 5px;
+  padding: 0.1rem;
+}
+
+.navUl > li:hover {
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+
+/* giving input top padding */
+.form {
+  padding-top: 1rem;
+}
+
+/* styling button */
+.btnStyled {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Styling input field */
+input {
+  text-align: center;
+}
+
+/* styling card  */
+.card-custom {
+  margin-bottom: 15px;
+  transition: 1s ease-in;
+}
+
+/* styling delete button */
+.delButton {
+  float: right;
+}
+
+/* aligning sign in input values to the left */
+.left {
+  text-align: left;
+}
